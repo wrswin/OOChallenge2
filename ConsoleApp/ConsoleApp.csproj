@@ -4,4 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>OOChallenge2.ConsoleApp</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../ClassLibrary/ClassLibrary.csproj" />
+  </ItemGroup>
 </Project>
