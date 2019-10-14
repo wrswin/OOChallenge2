@@ -34,7 +34,7 @@ namespace OOChallenge2.ConsoleApp {
                         var square = new Square(sideLength1);
                         square.Colour = colour;
 
-                        Console.WriteLine("Successfully create a Square");
+                        Console.WriteLine("Successfully created a Square");
                     } break;
 
                     case 2: {
@@ -47,7 +47,7 @@ namespace OOChallenge2.ConsoleApp {
                         var rectangle = new Rectangle(sideLength1, sideLength2);
                         rectangle.Colour = colour;
 
-                        Console.WriteLine("Successfully create a Rectangle");
+                        Console.WriteLine("Successfully created a Rectangle");
                     } break;
 
                     case 3: {
@@ -59,7 +59,7 @@ namespace OOChallenge2.ConsoleApp {
                         var equilateral = new Equilateral(sideLength1);
                         equilateral.Colour = colour;
 
-                        Console.WriteLine("Successfully create an Equilateral Triangle");
+                        Console.WriteLine("Successfully created an Equilateral Triangle");
                     } break;
 
                     case 4: {
@@ -72,7 +72,7 @@ namespace OOChallenge2.ConsoleApp {
                         var rightAngle = new RightAngle(sideLength1, sideLength2);
                         rightAngle.Colour = colour;
 
-                        Console.WriteLine("Successfully create a Right Angle Triangle");
+                        Console.WriteLine("Successfully created a Right Angle Triangle");
                     } break;
 
                     case 5: {
@@ -85,7 +85,7 @@ namespace OOChallenge2.ConsoleApp {
                         circle.Radius = radius;
                         circle.Colour = colour;
 
-                        Console.WriteLine("Successfully create a Circle");
+                        Console.WriteLine("Successfully created a Circle");
                     } break;
 
                     case 6: {
