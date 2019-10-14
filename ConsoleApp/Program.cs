@@ -99,6 +99,10 @@ namespace OOChallenge2.ConsoleApp {
             }
         }
 
+        /// <summary>
+        ///  Retrieve a valid length from the user via the command line.
+        ///  A valid length is defined as a positive whole number.
+        /// </summary>
         static double RetrieveLength(string name) {
             while(true) {
                 Console.Write($"Enter {name}: ");
