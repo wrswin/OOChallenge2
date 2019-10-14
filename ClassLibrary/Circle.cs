@@ -4,10 +4,6 @@ namespace OOChallenge2 {
 
         public double Radius;
 
-        public Circle(double radius) {
-            Radius = radius;
-        }
-
         public double GetArea() {
             return PI * Radius * Radius;
         }
