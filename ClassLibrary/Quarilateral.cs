@@ -5,7 +5,7 @@ namespace OOChallenge2 {
         public double SideLength3;
         public double SideLength4;
 
-        public Quadrilateral(double sideLength1, double sideLength2, double sideLength3, double sideLength4, string colour) : base(colour) {
+        public Quadrilateral(double sideLength1, double sideLength2, double sideLength3, double sideLength4) {
             SideLength1 = sideLength1;
             SideLength2 = sideLength2;
             SideLength3 = sideLength3;

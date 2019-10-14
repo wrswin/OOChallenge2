@@ -2,7 +2,7 @@ using System;
 
 namespace OOChallenge2 {
     public class Equilateral : Triangle, IShapeCalc {
-        public Equilateral(double sideLength1, string colour) : base(sideLength1, sideLength1, sideLength1, colour) {
+        public Equilateral(double sideLength1) : base(sideLength1, sideLength1, sideLength1) {
             
         }
 

@@ -2,7 +2,7 @@ using System;
 
 namespace OOChallenge2 {
     public class RightAngle : Triangle, IShapeCalc {
-        public RightAngle(double sideLength1, double sideLength2, string colour) : base(sideLength1, sideLength2, 0, colour) {
+        public RightAngle(double sideLength1, double sideLength2) : base(sideLength1, sideLength2, 0) {
             SetHypotenuse();
         }
         

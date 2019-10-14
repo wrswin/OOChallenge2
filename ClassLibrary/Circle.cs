@@ -4,7 +4,7 @@ namespace OOChallenge2 {
 
         public double Radius;
 
-        public Circle(double radius, string colour) : base(colour) {
+        public Circle(double radius) {
             Radius = radius;
         }
 
