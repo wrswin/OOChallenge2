@@ -54,5 +54,16 @@ namespace OOChallenge2.Tests {
             Assert.AreEqual(Math.Round(area), Math.Round(shape.GetArea()));
             Assert.AreEqual(Math.Round(perimeter), Math.Round(shape.GetPerimeter()));
         }
+
+        [TestCase(typeof(Square))]
+        [TestCase(typeof(Rectangle))]
+        [TestCase(typeof(Equilateral))]
+        [TestCase(typeof(RightAngle))]
+        [TestCase(typeof(Circle))]
+        public void IShapeCalcImplementationTest(Type type) {
+            var interfaceType = typeof(IShapeCalc);
+
+            Assert.IsTrue(interfaceType.IsAssignableFrom(type));
+        }
     }
 }
