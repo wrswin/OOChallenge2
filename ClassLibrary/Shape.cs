@@ -5,7 +5,7 @@ namespace OOChallenge2 {
         public string Colour;
 
         public Shape() {
-            Colour = "red";
+            
         }
 
         public void Operation1() {
